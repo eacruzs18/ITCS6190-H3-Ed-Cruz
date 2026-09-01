@@ -3,7 +3,7 @@ services:
     build: .
     ports:
       - "8000:5000"
-   depends_on:
+    depends_on:
       - redis
   redis:
     image: "redis:alpine"
