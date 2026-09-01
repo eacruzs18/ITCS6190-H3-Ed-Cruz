@@ -1,0 +1,16 @@
+# Python virtual environments
+.venv/
+venv/
+
+# Environment variables & secrets
+.env
+
+# IDE & OS files
+.idea/
+.vscode/
+.DS_Store
+
+# Build & cache artifacts
+__pycache__/
+*.pyc
+dist/
