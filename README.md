@@ -131,3 +131,12 @@ docker compose up
 
     http://localhots:8000
 
+
+## Learning Outcomes
+* Container Lifecycle Management
+* Understand fundamentals of working with containerized environments 
+* Hands-on experience pulling images, mounting network ports, passing environment variables, and accessing running container namespaces via docker exec.
+* Learn to connect and orchestrate multiple components in a system
+
+
+
