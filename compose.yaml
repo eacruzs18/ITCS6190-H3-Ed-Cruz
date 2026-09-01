@@ -3,10 +3,7 @@ services:
     build: .
     ports:
       - "8000:5000"
-    environment:
-      - FLASK_APP=app.py
-      - FLASK_RUN_HOST=0.0.0.0
-    volumes:
-      - .:/code
+   depends_on:
+      - redis
   redis:
     image: "redis:alpine"
